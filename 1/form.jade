@@ -1,0 +1,10 @@
+//  Write an anonymous function which takes email address as parameter and returns True/False
+    after validating the input parameter.
+doctype html
+html
+    head
+        script(src="external.js")
+    body
+        h2 Enter an email to validate in onchange function
+        label(name='email') email : 
+        input(type='email',value='enter an email',name='email',onchange="validateEmail(this.value)")
